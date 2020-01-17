@@ -11,6 +11,7 @@ import mapStyle from './utils/mapStyle';
 function Main({ navigation }) {
     const [devs, setDevs] = useState([]);
     const [currentRegion, setCurrentRegion] = useState(null);
+    const [techs, setTechs] = useState('');
 
     useEffect(() => {
         async function loadInitialPosition() {
@@ -41,7 +42,7 @@ function Main({ navigation }) {
             params: {
                 latitude,
                 longitude,
-                techs: 'ReactJS'
+                techs
             }
         });
 
@@ -98,7 +99,9 @@ function Main({ navigation }) {
                     placeholder={'Buscar devs por techs...'}
                     placeholderTextColor={'#999'}
                     autoCapitalize='words' 
-                    autoCorrect={false}
+                    autoCorrect={false} 
+                    value={techs} 
+                    onChangeText={setTechs}
                 />
 
                 <TouchableOpacity onPress={loadDevs} style={styles.loadButton}>
