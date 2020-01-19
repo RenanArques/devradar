@@ -11,7 +11,22 @@
   <img alt="Web" src=".github/Web.png" width="100%">
 </p>
 
----
+## :boom: Executar
+
+### :computer: Web
+É possível utilizar a aplicação web através [desse link](http://bit.ly/devradar).
+
+### :iphone: Mobile
+Baixe o apk para Android [aqui](http://bit.ly/devradar-apk)
+ou por esse qrcode:
+
+<img alt="apk" src=".github/qrcode-apk.png" width="200px">
+
+Para executar localmente rode nos diretórios ```backend```, ```web``` e ```mobile``` os comandos:
+```
+$ yarn
+$ yarn start
+```
 
 ## :book: Tecnologias
 
