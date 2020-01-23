@@ -17,7 +17,7 @@
 É possível utilizar a aplicação web através [desse link](http://bit.ly/devradar).
 
 ### :iphone: Mobile
-Baixe o apk para Android [aqui](http://bit.ly/devradar-apk)
+Baixe o apk para Android [aqui](http://bit.ly/2GgGP0t)
 ou por esse qrcode:
 
 <img alt="apk" src=".github/qrcode-apk.png" width="200px">

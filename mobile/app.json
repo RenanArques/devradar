@@ -25,6 +25,14 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.renanarques.devradar",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAOrsQiNmX_G0q5B9kQC62uzZ4gB5bhyHU"
+        }
+      }
     }
   }
 }
